@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(62, 26, 26);
+  
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+  }
+  
+ 
+ 
+  #toggler :checked ~ .menu {
+    max-height: 100%;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+ 
+  
+  
+  
